@@ -1,4 +1,4 @@
-# ceasar-cipher
+# Caesar Cipher Exercise
 Code Louisville Python programming exercise.
 
 ## Overview
