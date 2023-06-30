@@ -24,7 +24,6 @@ Note that the program should not replace special characters like spaces or excla
 
 1. Clone the repo to your machine
 1. Add yor code to the `cipher.py` file
-1. You can test your solution by running: `pytest test_cipher.py`
 
 ## Credits
 
