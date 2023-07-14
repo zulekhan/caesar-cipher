@@ -7,9 +7,9 @@ Code Louisville Python programming exercise.
 
 From: [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) on wikipedia.org
 
-In this exercise we will implement a Caesar cipher with a shift of 5. This exercise is based on the Caesar cipher exersise in the openSAP Python for Beginners course.If you have already solved it as part of the Learn Python course you can re-use your code here.
+In this exercise we will implement a Caesar cipher with a right shift of 5. This exercise is based on the Caesar cipher exersise in the openSAP Python for Beginners course.If you have already solved it as part of the Learn Python course you can re-use your code here.
 
-Write a Python program that encrypts text given by the user. The program should ask the user for a plain text sentence and print the encrypted text. The text should be encrypted using a caesar cipher with an shift of 5.
+Write a Python program that encrypts text given by the user. The program should ask the user for a plain text sentence and print the encrypted text. The text should be encrypted using a caesar cipher with a right shift of 5.
 
 Here is an example execution of the program:
 
