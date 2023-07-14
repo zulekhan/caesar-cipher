@@ -3,9 +3,7 @@ Code Louisville Python programming exercise.
 
 ## Overview
 
-> In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code, or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter i
-n the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his p
-rivate correspondence.
+> In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code, or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
 
 From: [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) on wikipedia.org
 
@@ -25,7 +23,7 @@ Note that the program should not replace special characters like spaces or excla
 ## Instructions
 
 1. Clone the repo to your machine
-1. Add yor code to the `cipher.py` file
+1. Add your code to the `cipher.py` file
 1. Add, Commit, and Push your code to GitHub
 
 
