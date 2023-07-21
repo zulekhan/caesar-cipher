@@ -5,11 +5,11 @@ import io
 import builtins
 
 @pytest.mark.parametrize("original_sentence,encrypted_sentence",
-                        [['python is fun!', 'The encrypted sentence is: udymts nx kzs!'],
-                        ['aaa', 'The encrypted sentence is: fff'],
-                        ['xyz', 'The encrypted sentence is: cde'],
-                        ['A sentence with Capital letters.', 'The encrypted sentence is: f xjsyjshj bnym hfunyfq qjyyjwx.'],
-                        ['#$%^&*()', 'The encrypted sentence is: #$%^&*()']
+                        [['python is fun!', 'udymts nx kzs!'],
+                        ['aaa', 'fff'],
+                        ['xyz', 'cde'],
+                        ['A sentence with Capital letters.', 'f xjsyjshj bnym hfunyfq qjyyjwx.'],
+                        ['#$%^&*()', '#$%^&*()']
                         ])
 def test_cipher(original_sentence, encrypted_sentence, monkeypatch):
     mocked_stdout = io.StringIO()
@@ -21,4 +21,4 @@ def test_cipher(original_sentence, encrypted_sentence, monkeypatch):
         sys.modules.pop("cipher", None)
         importlib.import_module(name="cipher", package="files")
     
-    assert mocked_stdout.getvalue().strip() == encrypted_sentence
+    assert mocked_stdout.getvalue().strip() == 'The encrypted sentence is: ' + encrypted_sentence
