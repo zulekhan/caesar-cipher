@@ -33,9 +33,7 @@ Note that the program should not replace special characters like spaces or excla
 
 ## Instructions
 
-1. GitHub Classroom will send you an email asking you to accept the assignment.
-1. Once you've accepted, it will create a repo for you to add your code.
-1. Clone your repo, add your code, and Commit/Push your changes to Github.
+1. Fork and clone the repo, add your code, and Commit/Push your changes to Github.
 1. Mentors will review your submissions and provide feedback.
 
 ### Optional: Automated Code Testing
